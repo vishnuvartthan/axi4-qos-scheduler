@@ -1,0 +1,34 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  LINE   COND   TOGGLE BRANCH ASSERT 
+ 90.03  99.13  88.89  81.26  86.78  94.12 
+
+
+Total modules in report: 14
+-------------------------------------------------------------------------------
+SCORE              LINE     COND     TOGGLE   BRANCH   ASSERT   NAME                                                       
+  0.00             --       --       --       --         0.00   uvm_pkg                                                    
+ 70.37             100.00    62.50    53.25    65.71   --       csr_regs                                                   
+ 85.54             100.00    75.00    67.15   100.00   --       axi4lite_csr_if                                            
+ 87.43             --       --        87.43   --       --       qos_axi_if                                                 
+ 91.66             100.00    96.43    80.23    90.00   --       axi4_scheduler_top                                         
+ 93.74             100.00    88.89    86.07   100.00   --       scheduler_core                                             
+ 95.44              96.77   100.00    92.68    92.31   --       wrr_arbiter                                                
+ 96.02              94.74   --        93.33   100.00   --       age_tracker                                                
+ 96.67             --       --        93.33   --       100.00   scheduler_sva                                              
+ 97.50             100.00   100.00    90.00   100.00   --       req_fifo                                                   
+                   
+  ---------------- 
+  SCORE              LINE     COND     TOGGLE   BRANCH   ASSERT   NAME                                                     
+  100.00             100.00   100.00   --       100.00   --       req_fifo                                                 
+  100.00             --       --       100.00   --       --       req_fifo ( parameter WIDTH=2,DEPTH=16,PTR_W=4,CNT_W=5 )  
+   80.00             --       --        80.00   --       --       req_fifo ( parameter WIDTH=61,DEPTH=8,PTR_W=3,CNT_W=4 )  
+                   
+----------------   
+SCORE              LINE     COND     TOGGLE   BRANCH   ASSERT   NAME                                                       
+ 98.48             100.00   100.00    93.91   100.00   --       scheduler_channel                                          
+100.00             --       --       100.00   --       --       aw_src_order_fifo                                          
+100.00             --       --       --       --       100.00   qos_axi_hold_sva                                           
+100.00             100.00   --       100.00   --       --       tb_uvm_axi4_scheduler                                      
+

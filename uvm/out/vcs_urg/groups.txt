@@ -1,0 +1,20 @@
+Testbench Group List
+
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 99.56  99.56     1      
+
+
+Total groups in report: 9
+-------------------------------------------------------------------------------
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                       
+ 96.00  96.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::grant_policy_cg      
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::response_cg          
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::axi_sideband_cg      
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::csr_policy_cg        
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::aw_order_depth_cg    
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::axi_event_cg         
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::aging_override_cg    
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::reset_outstanding_cg 
+100.00 100.00    1      100    1        1            64           64                    qos_uvm_pkg::qos_cov::axi_backpressure_cg  
+

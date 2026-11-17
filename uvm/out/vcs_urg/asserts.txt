@@ -1,0 +1,83 @@
+Assertions
+
+
+Assertions by Category
+           ASSERT PROPERTIES SEQUENCES
+Total          41          0         0
+Category 0     41          0         0
+
+-------------------------------------------------------------------------------
+
+Assertions by Severity
+           ASSERT PROPERTIES SEQUENCES
+Total          41          0         0
+Severity 0     41          0         0
+
+-------------------------------------------------------------------------------
+
+Summary for Assertions
+                 NUMBER PERCENT
+Total Number         41  100.00
+Uncovered             2    4.88
+Success              39   95.12
+Failure               0    0.00
+Incomplete            0    0.00
+Without Attempts      2    4.88
+
+-------------------------------------------------------------------------------
+
+Detail Report for Assertions
+
+Assertions Uncovered:
+                       ASSERTIONS                       CATEGORY SEVERITY ATTEMPTS REAL SUCCESSES FAILURES INCOMPLETE
+uvm_pkg.\uvm_reg_map::do_read .unnamed$$_0.unnamed$$_1         0        0        0              0        0          0
+uvm_pkg.\uvm_reg_map::do_write .unnamed$$_0.unnamed$$_1        0        0        0              0        0          0
+
+Assertions Success:
+                                   ASSERTIONS                                   CATEGORY SEVERITY ATTEMPTS REAL SUCCESSES FAILURES INCOMPLETE
+tb_uvm_axi4_scheduler.dut.u_ar_sched.u_scheduler_sva.a_known_src_on_handshake          0        0   555380          77016        0          0
+tb_uvm_axi4_scheduler.dut.u_ar_sched.u_scheduler_sva.a_no_pop_without_handshake        0        0   555380          77016        0          0
+tb_uvm_axi4_scheduler.dut.u_ar_sched.u_scheduler_sva.a_no_x_on_valid_output            0        0   555380         106360        0          0
+tb_uvm_axi4_scheduler.dut.u_ar_sched.u_scheduler_sva.a_onehot_fifo_pop                 0        0   555380         554060        0          0
+tb_uvm_axi4_scheduler.dut.u_ar_sched.u_scheduler_sva.a_pop_matches_out_src             0        0   555380          77016        0          0
+tb_uvm_axi4_scheduler.dut.u_ar_sched.u_scheduler_sva.a_serve_matches_pop               0        0   555380         554060        0          0
+tb_uvm_axi4_scheduler.dut.u_ar_sched.u_scheduler_sva.a_serve_only_on_handshake         0        0   555380          77016        0          0
+tb_uvm_axi4_scheduler.dut.u_aw_sched.u_scheduler_sva.a_known_src_on_handshake          0        0   555380          11762        0          0
+tb_uvm_axi4_scheduler.dut.u_aw_sched.u_scheduler_sva.a_no_pop_without_handshake        0        0   555380          11762        0          0
+tb_uvm_axi4_scheduler.dut.u_aw_sched.u_scheduler_sva.a_no_x_on_valid_output            0        0   555380          12697        0          0
+tb_uvm_axi4_scheduler.dut.u_aw_sched.u_scheduler_sva.a_onehot_fifo_pop                 0        0   555380         554060        0          0
+tb_uvm_axi4_scheduler.dut.u_aw_sched.u_scheduler_sva.a_pop_matches_out_src             0        0   555380          11762        0          0
+tb_uvm_axi4_scheduler.dut.u_aw_sched.u_scheduler_sva.a_serve_matches_pop               0        0   555380         554060        0          0
+tb_uvm_axi4_scheduler.dut.u_aw_sched.u_scheduler_sva.a_serve_only_on_handshake         0        0   555380          11762        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.a_mst_ar_hold                                 0        0   555380          45028        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.a_mst_aw_hold                                 0        0   555380          10434        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.a_mst_b_hold                                  0        0   555380           8894        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.a_mst_r_hold                                  0        0   555380          91893        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.a_mst_w_hold                                  0        0   555380          66572        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[0].a_src_ar_hold                   0        0   555380          47708        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[0].a_src_aw_hold                   0        0   555380             90        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[0].a_src_b_hold                    0        0   555380           2186        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[0].a_src_r_hold                    0        0   555380          21963        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[0].a_src_w_hold                    0        0   555380         193990        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[1].a_src_ar_hold                   0        0   555380          56617        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[1].a_src_aw_hold                   0        0   555380             90        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[1].a_src_b_hold                    0        0   555380           2275        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[1].a_src_r_hold                    0        0   555380          22305        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[1].a_src_w_hold                    0        0   555380         196972        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[2].a_src_ar_hold                   0        0   555380          49354        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[2].a_src_aw_hold                   0        0   555380             90        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[2].a_src_b_hold                    0        0   555380           2261        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[2].a_src_r_hold                    0        0   555380          23005        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[2].a_src_w_hold                    0        0   555380         199392        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[3].a_src_ar_hold                   0        0   555380          37871        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[3].a_src_aw_hold                   0        0   555380             90        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[3].a_src_b_hold                    0        0   555380           2172        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[3].a_src_r_hold                    0        0   555380          24620        0          0
+tb_uvm_axi4_scheduler.u_qos_axi_hold_sva.g_src_hold[3].a_src_w_hold                    0        0   555380         198735        0          0
+
+Assertions Without Attempts:
+                       ASSERTIONS                       CATEGORY SEVERITY ATTEMPTS REAL SUCCESSES FAILURES INCOMPLETE
+uvm_pkg.\uvm_reg_map::do_read .unnamed$$_0.unnamed$$_1         0        0        0              0        0          0
+uvm_pkg.\uvm_reg_map::do_write .unnamed$$_0.unnamed$$_1        0        0        0              0        0          0
+
+
